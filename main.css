@@ -37,29 +37,65 @@ html, body {
 }
 
 .video{
+  box-sizing: border-box;
   width: 100%;
+  margin: 25px 0;
+
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+
+}
+
+.video div {
+
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
 }
 
 .video_out {
-    margin: 0 auto;
-    background-image: url("iPhone-7-Silver-vertical.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 80px;
-    height: 400px;
+
+  box-sizing: border-box;
+  padding: 3% 13.25%;
+
+  margin: 0 auto;
+  background-image: url("iPhone-7-Silver-vertical.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 855px;
+  margin-top: 80px;
+  height: 400px;
     
 }
 .video_in {
+
+    box-sizing: border-box;
     position: relative;
     margin: auto;
     width: 100%;
     height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    margin-top: 50px;
+    background-image: url("iPhone-7-Silver-vertical.png");
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-top: 2.75%;
+    padding-bottom: 2.75%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
+  
 }
 
 .wrapper{
