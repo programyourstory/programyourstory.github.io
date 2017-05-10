@@ -85,25 +85,25 @@ body {
 }
 .video_in {
 
-    box-sizing: border-box;
-    position: relative;
-    margin: auto;
-    width: 100%;
-    height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%;
 
-    margin-top: 50px;
-    background-image: url("iPhone-7-Silver-vertical.png");
-    padding-left: 11.5%;
-    padding-right: 11.5%;
-    padding-top: 2.75%;
-    padding-bottom: 2.75%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  margin-top: 50px;
+  background-image: url("iPhone-7-Silver-vertical.png");
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+  padding-top: 2.75%;
+  padding-bottom: 2.75%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    //top: 50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
   
 }
 
@@ -176,11 +176,13 @@ body {
 
 .position {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 10pt;
+  font-weight: 600;
+  font-size: 12pt;
   max-width: 400px;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: 8px;
+  margin-bottom: 8px;
   color: #015B7A
 }
 
@@ -189,6 +191,8 @@ body {
   max-width: 400px;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #FFFFFF;
 }
 
@@ -205,6 +209,7 @@ body {
   background-size: cover;
   padding-bottom: 50px;
   min-height: 350px;
+  padding-bottom: 15px;
 }
 
 .logo img{
@@ -227,4 +232,15 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   color: #FFFFFF;
+}
+
+.appleCopyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+  padding-bottom: px;
 }
