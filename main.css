@@ -152,7 +152,7 @@ body {
 
 .autor {
   margin: 0 auto;
-  padding: 50px;
+  padding: 5%;
 }
 
 .autor div {
@@ -165,9 +165,10 @@ body {
   font-weight: 600; 
   font-size: 20pt;
   max-width: 400px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   color: #FFFFFF;
+  margin-bottom: 5px;
 }
 .nome span {
   font-weight: 700;
@@ -178,16 +179,16 @@ body {
   font-weight: 400;
   font-size: 10pt;
   max-width: 400px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   color: #015B7A
 }
 
 .resuminho {
   font-family: 'Open Sans', sans-serif;
   max-width: 400px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   color: #FFFFFF;
 }
 
